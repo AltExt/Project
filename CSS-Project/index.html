@@ -3,13 +3,167 @@
 	<head>
 		<title> Basic Webpage Assignment </title>
 		<meta charset = "utf-8">
+		<link rel="stylesheet" href="./CSS/shared.css">
+		<link rel="stylesheet" href="./CSS/animations.css">
 	</head>
 
-
 	<body>
-		<h1> H1 text </h1>
-		<h3> H3 text </h3>
-		<h6> H6 text </h6>
-		<p> This is a paragraph</p>
+		<!-- Nav -->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>RESERVATIONS</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- End Nav-->
+
+		<!-- Home -->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Te Space Station</span>
+				</div>
+			</div>
+		</div>
+		<!-- End Home -->
+
+		<!-- Gallery -->
+		<div id="Gallery">
+			<div class="container"> 
+				<h1>Gallery</h1>
+				<div class="flex-container">
+					<!-- IMAGE 01 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/eq1.jpg" alt="">
+							<div class="photo-ovelay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- IMAGE 02 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/eq2.jpg" alt="">
+							<div class="photo-ovelay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- IMAGE 03 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/eq3.jpg" alt="">
+							<div class="photo-ovelay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- IMAGE 04 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/eq4.jpg" alt="">
+							<div class="photo-ovelay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- IMAGE 05 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/eq5.jpg" alt="">
+							<div class="photo-ovelay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- IMAGE 06 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/eq6.jpg" alt="">
+							<div class="photo-ovelay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- IMAGE 07 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/eq7.jpg" alt="">
+							<div class="photo-ovelay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- IMAGE 08 -->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./Images/eq8.jpg" alt="">
+							<div class="photo-ovelay">
+								<h3>Click to Enlarge</h3>
+								<p>We have several launches departing daily, book your flight today!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Gallery -->
+
+		<!-- RSVP -->
+		<div id="conact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
+						<h2>
+							<span>our adventurre is just around the moon.</span>
+							<br/>Reserve your flight today!
+						</h2>
+						<p class="rsvp-text">
+							Please provide us with your contact information.
+						</p>
+						<div class="form-rsvp">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div class="submit">
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End RSVP -->
+
+		<!-- Footer -->
+		<div id="footer">
+			www.thespacestation.com &nbsp;|&nbsp; &copy; 2023
+		</div>
+		<!-- End Footer -->
 	</body>
 </html>
