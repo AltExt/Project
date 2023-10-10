@@ -1,0 +1,89 @@
+.container {
+	margin-top: 100px;
+	z-index: -1;
+}
+
+.c1-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.c1-filter {
+	filter: blur(2px);
+}
+
+.c1-edges {
+	border-radius: 10px;
+}
+
+.c2-text {
+	text-align: center;
+	font-weight: bold;
+}
+
+.c3-table {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.c3-table, .c3-table td, .c3-table tr, .c3-table th {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.c3-table td {
+	padding: 5px;
+}
+
+th {
+	background-color: red;
+}
+
+.c4-container {
+	position: relative;
+	text-align: center;
+	color: rebeccapurple;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.c4-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.c4-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.c5-navbar {
+	z-index: 1;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	left: 20%;
+	width: 60%;
+}
+
+.c5-navbar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: blue;
+}
+
+.c5-navbar a:hover {
+	background-color: aqua;
+}
